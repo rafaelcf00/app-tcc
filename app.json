@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "TccApp",
+    "name": "MDevelop",
     "slug": "TccApp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -13,9 +13,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.rafaelcf.TccApp"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "a0bb1be8-4590-46d3-8c81-f498fbf37cf3"
+      }
     }
   }
 }
